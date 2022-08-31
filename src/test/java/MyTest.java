@@ -7,6 +7,7 @@ import org.testng.annotations.Test;
 import java.util.List;
 
 public class MyTest {
+    //My test method for opening the browser and clicking on the link
     @Test
     public void myFirstTest() {
         WebDriver driver = new ChromeDriver();
